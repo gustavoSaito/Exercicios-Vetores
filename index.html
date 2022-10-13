@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="formulario">
+        <form action="" class="formVetor" id="formVetor" onsubmit="salvarVetor();">
+            <h3 class="titleForm">Insira os valores do vetor!</h3>
+            <ul class="dadosVetor" onload="inserirLinhaVetores()">
+                <li>
+                    <label for="">Valor 01: </label>
+                    <input type="number" class="valorVetor" name="valorVetor" id="valor1" required="true">
+                </li>
+                <li>
+                    <label for="">Valor 02: </label>
+                    <input type="number" class="valorVetor" name="valorVetor" id="valor2" required="true">
+                </li>
+                <li>
+                    <label for="">Valor 03: </label>
+                    <input type="number" class="valorVetor" name="valorVetor" id="valor3" required="true">
+                </li>
+                <li>
+                    <label for="">Valor 04: </label>
+                    <input type="number" class="valorVetor" name="valorVetor" id="valor4" required="true">
+                </li>
+                <li>
+                    <label for="">Valor 05: </label>
+                    <input type="number" class="valorVetor" name="valorVetor" id="valor5" required="true">
+                </li>
+                <li>
+                    <label for="">Valor 06: </label>
+                    <input type="number" class="valorVetor" name="valorVetor" id="valor6" required="true">
+                </li>
+                <li>
+                    <label for="">Valor 07: </label>
+                    <input type="number" class="valorVetor" name="valorVetor" id="valor7" required="true">
+                </li>
+                <li>
+                    <label for="">Valor 08: </label>
+                    <input type="number" class="valorVetor" name="valorVetor" id="valor8" required="true">
+                </li>
+                <li>
+                    <label for="">Valor 09: </label>
+                    <input type="number" class="valorVetor" name="valorVetor" id="valor9" required="true">
+                </li>
+                <li>
+                    <label for="">Valor 10: </label>
+                    <input type="number" class="valorVetor" name="valorVetor" id="valor10" required="true">
+                </li>
+                <li>
+                    <label for="">Valor 11: </label>
+                    <input type="number" class="valorVetor" name="valorVetor" id="valor11" required="true">
+                </li>
+                <li>
+                    <label for="">Valor 12: </label>
+                    <input type="number" class="valorVetor" name="valorVetor" id="valor12" required="true">
+                </li>
+            </ul>
+
+            <h3 class="titleForm">Insira 02 valores equivalente ao vetor</h3>
+
+            <ul class="entradaValores">
+                <li>
+                    <label for="">Valor 01</label>
+                    <input type="number" class="entradaVetor" name="valorEntrada" id="valorEntrada1" required>
+                </li>
+                <li>
+                    <label for="">Valor 02</label>
+                    <input type="number" class="entradaVetor" name="valorEntrada" id="valorEntrada2" required>
+                </li>
+            </ul>
+            <div class="buttons">
+                <input id="enviar" type="submit" value="Enviar" style="width: 200px; height:40px">
+                <input id="limpar" type="reset" value="Limpar Formulário" style="width: 200px; height:40px">
+            </div>
+        </form>
+
+        <div id="testeA"></div>
+
+    </div>
+</body>
+</html>
+
+<!-- Leia um vetor de 12 posições e em seguida ler também dois valores X e Y quaisquer 
+correspondentes a duas posições no vetor. Ao final seu programa deverá escrever a 
+soma dos valores encontrados nas respectivas posições X e Y. -->

@@ -1,0 +1,58 @@
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formVetor{
+    border: 2px solid;
+    width: 60%;
+    height: 400px;
+    justify-content: center;
+    margin-top: auto;
+}
+.titleForm{
+    order: 1;
+    width: 100%;
+    text-align: center;
+}
+.dadosVetor{
+    order: 2;
+    display: inline-flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    margin: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+li {
+    padding-bottom: 20px;
+    list-style: none;
+}
+.entradaValores{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 0px;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+:root{
+    
+}
+#teste{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 #FEDE59; 
+}
+
